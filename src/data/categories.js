@@ -54,6 +54,12 @@ export const categories = [
     emoji: '🏰',
     color: '#9B59B6',
   },
+  {
+    id: 'sikh-bravery',
+    name: { en: 'Sikh Bravery', hi: 'सिख वीरता', pa: 'ਸਿੱਖ ਬਹਾਦਰੀ' },
+    emoji: '⚔️',
+    color: '#FF6B35',
+  },
 ];
 
 export const languages = [

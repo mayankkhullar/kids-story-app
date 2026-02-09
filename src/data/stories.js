@@ -7,12 +7,14 @@ import { storiesHi2 } from './stories-hi-2';
 import { storiesPa } from './stories-pa';
 import { storiesPa2 } from './stories-pa-2';
 import { storiesMagicalEn, storiesMagicalHi, storiesMagicalPa } from './stories-magical';
+import { storiesFairytalesEn, storiesFairytalesHi, storiesFairytalesPa } from './stories-fairytales';
+import { storiesSikhEn, storiesSikhHi, storiesSikhPa } from './stories-sikh';
 
 // All stories combined
 const allStories = {
-  en: [...storiesEn, ...storiesEn2, ...storiesMagicalEn],
-  hi: [...storiesHi, ...storiesHi2, ...storiesMagicalHi],
-  pa: [...storiesPa, ...storiesPa2, ...storiesMagicalPa],
+  en: [...storiesEn, ...storiesEn2, ...storiesMagicalEn, ...storiesFairytalesEn, ...storiesSikhEn],
+  hi: [...storiesHi, ...storiesHi2, ...storiesMagicalHi, ...storiesFairytalesHi, ...storiesSikhHi],
+  pa: [...storiesPa, ...storiesPa2, ...storiesMagicalPa, ...storiesFairytalesPa, ...storiesSikhPa],
 };
 
 // Get all stories for a language
