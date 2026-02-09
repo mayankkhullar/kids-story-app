@@ -4,7 +4,7 @@ services:
     container_name: kids-story-app
     restart: unless-stopped
     ports:
-      - "4443:443"
+      - "2083:443"
     volumes:
       - ./ssl/cert.pem:/etc/nginx/ssl/cert.pem:ro
       - ./ssl/key.pem:/etc/nginx/ssl/key.pem:ro
