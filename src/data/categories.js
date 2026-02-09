@@ -48,6 +48,12 @@ export const categories = [
     emoji: '🏺',
     color: '#20B2AA',
   },
+  {
+    id: 'magical-tales',
+    name: { en: 'Magical Tales', hi: 'जादुई कहानियाँ', pa: 'ਜਾਦੂਈ ਕਹਾਣੀਆਂ' },
+    emoji: '🏰',
+    color: '#9B59B6',
+  },
 ];
 
 export const languages = [
