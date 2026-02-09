@@ -1,0 +1,13 @@
+services:
+  kids-app:
+    build: .
+    container_name: kids-story-app
+    restart: unless-stopped
+    ports:
+      - "3001:80"
+    networks:
+      - family-brain-network
+
+networks:
+  family-brain-network:
+    external: true
