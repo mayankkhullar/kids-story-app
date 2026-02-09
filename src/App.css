@@ -462,12 +462,13 @@ body {
 
 /* Story Content */
 .story-content {
-  background: var(--bg-secondary);
+  background: #F5F5F0;
   border-radius: var(--radius-xl);
-  padding: 48px;
+  padding: 48px 56px;
   box-shadow: var(--shadow-sm);
   line-height: 2.4;
   font-family: 'Nunito', 'Noto Sans Devanagari', 'Noto Sans Gurmukhi', sans-serif;
+  color: #1A1A1A;
 }
 
 .story-content.font-small {
