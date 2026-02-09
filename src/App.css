@@ -466,24 +466,29 @@ body {
   border-radius: var(--radius-xl);
   padding: 48px;
   box-shadow: var(--shadow-sm);
-  line-height: 2;
+  line-height: 2.4;
+  font-family: 'Nunito', 'Noto Sans Devanagari', 'Noto Sans Gurmukhi', sans-serif;
 }
 
 .story-content.font-small {
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 2.2;
 }
 
 .story-content.font-medium {
-  font-size: 24px;
+  font-size: 26px;
+  line-height: 2.4;
 }
 
 .story-content.font-large {
-  font-size: 32px;
+  font-size: 34px;
+  line-height: 2.5;
 }
 
 .story-content p {
-  margin-bottom: 28px;
-  text-align: justify;
+  margin-bottom: 32px;
+  text-align: left;
+  letter-spacing: 0.02em;
 }
 
 .story-content p:last-child {
